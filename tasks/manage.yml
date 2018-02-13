@@ -9,5 +9,5 @@
   changed_when: False
   sudo: yes
   sudo_user: "{{django_user}}"
-  with_items: django_manage_list
+  with_items: "{{ django_manage_list }}"
   ignore_errors: django_ignore_errors
